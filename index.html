@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sara Morais | Web Developer</title>
+  <link type="text/css" rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <nav>
+    <div id="name-top">
+      <a href="#">
+        <ul>
+          <li>Sara</li>
+          <li>Morais</li>
+        </ul>
+      </a>
+    </div>
+    <div id="pull"><img src="images/nav-icon3.png" id="nav-icon">
+      <div id="options">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="/SaraM-Resume-2017.pdf" target="_blank">Resume</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section id="top">
+      <div id="name-mobile">
+        <h2>Sara</h2>
+        <h2>Morais</h2>
+        <p>Web Developer</p>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="content">
+
+        <h1>About</h1>
+
+        <div id="about-img">
+          <img src="images/sara.jpg">
+        </div>
+
+        <div id="about-me">
+          <p>Welcome to my website!  My name is Sara Morais and my goal is to continuously evolve as a Web Developer.  I grew up in Goiania, Brazil and have been living in New York City since 2012.  After becoming friends with a few bloggers, I became interested in learning how to code and build websites.  That led me to enroll in General Assembly's coding bootcamp in 2015, and I have been coding ever since.</p>
+          <p>From mockups to coding to testing, I enjoy the development process from start to finish. My priority is to provide an amazing user experience across all devices.  Although most of my experience is on the Frontend, I am just as interested in understanding Backend technologies.</p>
+          <p>When I'm not in front of my computer, you may find me watching TV Shows, or walking around the city, checking out street fairs and trying new restaurants.</p>
+        </div>
+
+        <div id="about-tech">
+          <p>Technologies:</p>
+          <p>HTML5 | CSS3 | JavaScript | JQuery | Backbone | React</p>
+          <p>Node | Express | Postgres | Mongoose | Ruby on Rails | Github</p>
+          <p>Bootstrap | WordPress | Responsive Design | Photoshop | After Effects</p>
+          
+          <div class="social">
+            <br>
+            <a href="https://github.com/saramorais" target="_blank"><img src="images/github40b.png" class="social"></img></a>
+            <a href="https://www.linkedin.com/in/saramorais1" target="_blank"><img src="images/linkedin40b.png" class="social"></img></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work">
+      <div class="content-work">
+        <h1>Portfolio</h1>
+        <div class="work-box">
+          <img src="images/beauty_shelf.png"></img>
+          <div class="details-work">
+            <p>Backbone.js/Node</p>
+            <p><a href="https://github.com/saramorais/beauty_shelf_" target="_blank">Visit Repo</a></p>
+          </div>
+        </div>
+        <div class="work-box">
+          <img src="images/event-eaze-new.jpg"></img>
+          <div class="details-work">
+            <p>Backbone.js/Node</p>
+            <p><a href="http://stormy-wave-1211.herokuapp.com/" target="_blank">Visit App</a></p>
+          </div>
+        </div>
+        <div class="work-box">
+          <img src="images/new-york-2.jpg"></img>
+          <div class="details-work">
+            <p>Backbone.js/Rails</p>
+            <p><a href="https://arcane-garden-6197.herokuapp.com/" target="_blank">Visit App</a></p>
+          </div>
+        </div>
+        <div class="work-box">
+          <img src="images/sharing.png"></img>
+          <div class="details-work">
+            <p>Responsive Website</p>
+            <p><a href="http://s12y.com/" target="_blank">Visit Website</a></p>
+          </div>
+        </div>
+        <div class="work-box">
+          <img src="images/future.png"></img>
+          <div class="details-work">
+            <p>Responsive Website</p>
+            <p><a href="http://digitalfutureofwork.com/" target="_blank">Visit Website</a></p>
+          </div>
+        </div>
+        <div class="work-box">
+          <img src="images/robert.jpg"></img>
+          <div class="details-work">
+            <p>WordPress Theme</p>
+            <p><a href="http://robertsalomon.com/" target="_blank">Visit Website</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="content">
+        <div id="contact-form">
+          <h1>Contact</h1>
+          <form name="sentMessage" id="contactForm" novalidate action="https://formspree.io/saracristinasm@gmail.com" method="POST">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Name" id="name" name="Name" >
+            <p class="help-block text-danger"></p>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Email" id="email" name="Email">
+              <p class="help-block text-danger"></p>
+            </div>
+            <div class="form-group">
+              <input type="tel" class="form-control" placeholder="Phone" id="phone" name="Phone">
+              <p class="help-block text-danger"></p>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" placeholder="Message" id="message" name="Message"></textarea>
+              <p class="help-block text-danger"></p>
+            </div>
+              <button type="submit">SEND</button>
+          </form>
+          <br>
+          <a href="https://github.com/saramorais" target="_blank"><img src="images/github40b.png" class="social"></img></a>
+          <a href="https://www.linkedin.com/in/saramorais1" target="_blank"><img src="images/linkedin40b.png" class="social"></img></a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="js/jquery.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
