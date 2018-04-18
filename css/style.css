@@ -126,18 +126,20 @@ nav {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
+  width: 80%;
+  text-align: center;
+  padding: 0 20px;
 }
 
 .name h1 {
   font-size: 80px;
   font-weight: 700;
-  display: inline-block;
+  display: inline;
 }
 
 .text-cursor {
   font-size: 80px;
-  display: inline-block;
-  margin-left: 10px;
+  display: inline;
   -webkit-animation: pulsate 1s;
   -webkit-animation-iteration-count: infinite; 
   opacity: 0.0
@@ -434,6 +436,11 @@ footer p {
 
   .name h1 {
     font-size: 40px;
+  }
+
+  .text-cursor {
+    font-size: 40px;
+    margin-left: 0;
   }
 
   .picture {
