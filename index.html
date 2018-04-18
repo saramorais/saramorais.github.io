@@ -4,103 +4,155 @@
 <head>
   <meta charset="UTF-8">
   <title>Sara Morais | Web Developer</title>
-  <link type="text/css" rel="stylesheet" href="style.css">
+  <link type="text/css" rel="stylesheet" href="css/reset.css">
+  <link type="text/css" rel="stylesheet" href="css/normalize.css">
+  <link type="text/css" rel="stylesheet" href="css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
   <nav>
-    <div id="name-top">
-      <a href="#">
-        <ul>
-          <li>Sara</li>
-          <li>Morais</li>
-        </ul>
-      </a>
-    </div>
-    <div id="pull"><img src="images/nav-icon3.png" id="nav-icon" alt="navigation">
-      <div id="options">
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#work">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="/SaraM-Resume2018.pdf" target="_blank">Resume</a></li>
-        </ul>
+    <div id="pull"><img src="images/nav-icon3.png" id="nav-icon" alt="navigation"></div>
+    <div class="nav-container">
+      <div class="name-top">
+        <a href="#">Sara Morais</a>
+      </div>
+      <div class="options">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+        <a href="/SaraM-Resume2018.pdf" target="_blank">Resume</a>
       </div>
     </div>
   </nav>
 
-  <main>
-    <section id="top">
-      <div id="name-mobile">
-        <h2>Sara</h2>
-        <h2>Morais</h2>
-        <p>Web Developer</p>
+    <div class="top"></div>
+      
+    <div class="name-box">
+      <div class="name">
+        <h1 class="text-animation"></h1><span class="text-cursor"> |</span>
       </div>
-    </section>
+    </div>
 
     <section id="about">
-      <div class="content">
+      <div class="about-box content-wrap">
 
-        <h1>About</h1>
+        <h2>About</h2>
 
-        <div id="about-img">
-          <img src="images/sara.jpg" alt="sara">
-        </div>
+        <div class="description">
+          <div class="picture">
+            <img src="images/sara.jpg" alt="sara">
+          </div>
 
-        <div id="about-me">
-          <p>Welcome to my website!  My name is Sara Morais and my goal is to continuously evolve as a Web Developer.  I grew up in Goiania, Brazil and have been living in New York City since 2012.  After becoming friends with a few bloggers, I became interested in learning how to code and build websites.  That led me to enroll in General Assembly's coding bootcamp in 2015, and I have been coding ever since.</p>
-          <p>From mockups to coding to testing, I enjoy the development process from start to finish. My priority is to provide an amazing user experience across all devices.  Although most of my experience is on the Frontend, I am just as interested in understanding Backend technologies.</p>
-          <p>When I'm not in front of my computer, you may find me watching TV Shows, or walking around the city, checking out street fairs and trying new restaurants.</p>
-        </div>
-
-        <div id="about-tech">
-          
-          <div class="social">
-            <br>
-            <a href="https://github.com/saramorais" target="_blank"><img src="images/github40b.png" class="social" alt="github" /></a>
-            <a href="https://www.linkedin.com/in/saramorais1" target="_blank"><img src="images/linkedin40b.png" class="social" alt="linkedin" /></a>
+          <div class="about-me">
+            <p>Welcome to my website!  My name is Sara Morais and I'm a Web Developer.  I grew up in Brazil and moved to New York City in 2012. I when to General Assembly's coding bootcamp in 2015, and I have been coding ever since.</p><br>
+            <p>From mockups to coding to testing, I enjoy the development process from start to finish. My priority is to provide an amazing user experience across all devices.  Although most of my experience is on the Front End, I am just as interested in understanding Back End technologies.</p><br>
+            <p>When I'm not in front of my computer, you may find me watching TV Shows, walking around the city, checking out street fairs and trying new restaurants.</p>
           </div>
         </div>
+
+        <div class="about-tech"></div>
+            
+        <div class="social">
+          <a href="https://github.com/saramorais" target="_blank"><img src="images/github40b.png" alt="Github" /></a>
+          <a href="https://www.linkedin.com/in/saramorais1" target="_blank"><img src="images/linkedin40b.png" alt="Linkedin" /></a>
+        </div>
+
       </div>
     </section>
 
-    <section id="work">
-      <div class="content-work">
-        <h1>Portfolio</h1>
-        <div class="work-box">
-          <img src="images/beauty_shelf.png" alt="beauty-shelf" />
-          <div class="details-work">
-            <p>Backbone.js/Node</p>
-            <p><a href="https://github.com/saramorais/beauty_shelf_" target="_blank">Visit Repo</a></p>
-          </div>
-        </div>
-        <div class="work-box">
-          <img src="images/event-eaze-new.jpg" alt="event" />
-          <div class="details-work">
-            <p>Backbone.js/Node</p>
-            <p><a href="http://stormy-wave-1211.herokuapp.com/" target="_blank">Visit App</a></p>
-          </div>
-        </div>
-        <div class="work-box">
-          <img src="images/new-york-2.jpg" alt="new-york" />
-          <div class="details-work">
-            <p>Backbone.js/Rails</p>
-            <p><a href="https://arcane-garden-6197.herokuapp.com/" target="_blank">Visit App</a></p>
-          </div>
-        </div>
-      </div>
-    </section>
+      <section id="work">
+        <div class="content-wrap">
+          <h2>Work</h2>
 
-    <section id="contact">
-      <div class="content">
-        <div id="contact-form">
-          <h1>Contact</h1>
+          <div class="work-box">
+            <img src="images/coloring.png" alt="new-york" />
+            <h3>Coloring Squares</h3>
+            <p>Play with the colors.</p>
+            <div class="details-work">
+              <div class="info-box">
+                <p>Simple Project with React.js</p>
+                <p><a href="https://aqueous-chamber-88551.herokuapp.com/" target="_blank">View Online</a></p>
+                <p><a href="https://github.com/saramorais/Coloring-Squares" target="_blank">View Source</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="work-box">
+            <img src="images/tax-tip.png" alt="new-york" />
+            <h3>Tax and Tip Calculator</h3>
+            <p>For when you can't think clearly.</p>
+            <div class="details-work">
+              <div class="info-box">
+                <p>Simple Project with React.js</p>
+                <p><a href="https://pure-sands-40525.herokuapp.com/" target="_blank">View Online</a></p>
+                <p><a href="https://github.com/saramorais/Tip-Tax-Calculator" target="_blank">View Source</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="work-box">
+            <img src="images/robert.jpg" alt="new-york" />
+            <h3>Robert Salomon</h3>
+            <p>Wordpress Website</p>
+            <div class="details-work">
+              <div class="info-box">
+                <p>Wordpress website built from scratch</p>
+                <p><a href="http://robertsalomon.com/" target="_blank">View Online</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="work-box">
+            <img src="images/new-york-2.jpg" alt="new-york" />
+            <h3>Roteiro New York</h3>
+            <p>Create your own itinerary.</p>
+            <div class="details-work">
+              <div class="info-box">
+                <p>Backbone.js/Rails</p>
+                <p><a href="https://arcane-garden-6197.herokuapp.com/" target="_blank">View Online</a></p>
+                <p><a href="https://github.com/saramorais/roteiro_nova_york" target="_blank">View Source</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="work-box">
+            <img src="images/beauty_shelf.png" alt="beauty-shelf" />
+            <h3>Beauty Shelf</h3>
+            <p>Share your favorite beauty products.</p>
+            <div class="details-work">
+              <div class="info-box">
+                <p>Backbone.js/Node</p>
+                <p><a href="https://github.com/saramorais/beauty_shelf_" target="_blank">View Source</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="work-box">
+            <img src="images/event-eaze-new.jpg" alt="event" />
+            <h3>Event Eaze</h3>
+            <p>Search events near you.</p>
+            <div class="details-work">
+              <div class="info-box">
+                <p>Backbone.js/Node</p>
+                <p><a href="http://stormy-wave-1211.herokuapp.com/" target="_blank">View Online</a></p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="content-wrap">
+
+          <h2>Contact</h2>
           <form name="sentMessage" id="contactForm" novalidate action="https://formspree.io/saracristinasm@gmail.com" method="POST">
             <div class="form-group">
               <label></label>
               <input type="text" class="form-control" placeholder="Name" id="name" name="Name" >
-            <p class="help-block text-danger"></p>
+              <p class="help-block text-danger"></p>
             </div>
             <div class="form-group">
               <label></label>
@@ -117,15 +169,18 @@
               <textarea class="form-control" placeholder="Message" id="message" name="Message"></textarea>
               <p class="help-block text-danger"></p>
             </div>
-              <button type="submit">SEND</button>
+            <button type="submit">SEND</button>
           </form>
-          <br>
-          <a href="https://github.com/saramorais" target="_blank"><img src="images/github40b.png" class="social"></img></a>
-          <a href="https://www.linkedin.com/in/saramorais1" target="_blank"><img src="images/linkedin40b.png" class="social"></img></a>
-        </div>
-      </div>
+          <div class="social">
+            <a href="https://github.com/saramorais" target="_blank"><img src="images/github40b.png" class="social"></img></a>
+            <a href="https://www.linkedin.com/in/saramorais1" target="_blank"><img src="images/linkedin40b.png" class="social"></img></a>
+          </div>
+
     </section>
-  </main>
+
+    <footer>
+      <p> &lt;Sara Morais | Web Developer | 2018 /&gt; </p>
+    </footer>
   <script
   src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
