@@ -165,12 +165,13 @@
 
 /*CONTACT SECTION*/
   .contact {
-    background-color: #ffffff; 
+    background-color: #efefef; 
 
   }  
 
   .contact-form {
     background-color: rgba(255,255,255,0.8);
+    padding: 30px;
   }
 
   label {
